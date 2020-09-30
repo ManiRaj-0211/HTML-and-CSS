@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: url('./images/car-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+}
+
+.heading {
+    display: flex;
+    max-width: 80%;
+    margin: 0 auto;
+    color: white;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo p {
+    font-size: 2rem;
+}
+
+.nowhere {
+    font-weight: bolder;
+}
+
+.selected {
+    background: #00C2FF;
+    padding: 1rem;
+}
+
+nav ul {
+    padding: 1.7rem 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline;
+    list-style: none;
+    padding-right: 1.7rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    max-width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-title {
+    color: #00C2FF;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-bottom: 1.6rem;
+}
+
+.content-message {
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+
+.selected-content {
+    background: #00C2FF;
+    width: 17rem;
+    padding: 1.5rem 0 1.5rem 1.5rem;
+    color: white;
+    font-size: 1.3rem;
+}
+
+footer {
+    display: flex;
+    background: black;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.head {
+    color: #00C2FF;
+    font-weight: bolder;
+    padding-bottom: 0.6rem;
+}
+
+footer p {
+    color: white;
+}
+
+@media only screen and (max-width: 930px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        padding-bottom: 1.4rem;
+    }
+
+    .content {
+        justify-content: start;
+    }
+
+    .content-title {
+        font-size: 2rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .content-message {
+        font-size: 1rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .selected-content {
+        font-size: 1.2rem;
+        width: 13rem;
+    }
+
+    footer {
+        align-items : start;
+    }
+
+    footer div {
+        width: 50%;
+        margin: 0 auto;
+        padding-bottom: 1.5rem;
+    }
+}

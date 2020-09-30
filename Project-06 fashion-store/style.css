@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    background: #FFE8C8;
+}
+
+.left, .right {
+    width: 2%;
+    background: #A66000;
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    height: 13rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header p {
+    font-size: 4rem;
+    font-weight: bolder;
+    font-style: italic;
+    color: #A66000;
+}
+
+header a {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    color: white;
+    background: #A66000;
+    padding: 1rem 2.5rem;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-left p {
+    font-size: 1.7rem;
+    font-weight: lighter;
+    padding-bottom: 5rem;
+}
+
+.main-left .selected {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.main-right img {
+    box-shadow: 1.2rem 1.2rem #A66000;
+}
+
+.main-left img {
+    box-shadow: -1.2rem -1.2rem #A66000;
+}
+
+.main-right h1 a {
+    display: block;
+    background: #A66000;
+    color: white;
+    text-decoration: none;
+    padding: 1.2rem 1.6rem;
+    margin: 5rem 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1400px) {
+    .main-container {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .main-right img {
+        margin-top: 3rem;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    header {
+        height: 7rem;
+    }
+
+    header p {
+        font-size: 2rem;
+    }
+
+    header a {
+        font-size: 1.3rem;
+        padding: 0.8rem 1.7rem;
+    }
+
+    .main-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main-left .selected {
+        margin-top: 1rem;
+        font-size: 1.7rem;
+        padding-bottom: 2rem;
+    }
+
+    .main-left p {
+        font-size: 1.4rem;
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .main-left img {
+        margin-top: 5rem;
+        width: 80%;
+        margin: 20% auto;
+    }
+
+    .main-right img {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
