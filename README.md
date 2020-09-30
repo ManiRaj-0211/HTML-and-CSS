@@ -1,7 +1,7 @@
 ## Design to Code
 ## Responsive Websites
 
-1. Project-01 simple-responsive-web<br />
+1. Project-01 simple-responsive-web<br>
 ![simple responsive website](./images/full/01.png)<br />
 2. Project-02 simple-responsive-web2<br />
 ![simple responsive website](./images/full/02.png)<br />
